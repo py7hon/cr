@@ -1,7 +1,7 @@
 <template>
   <div v-if="media">
-    <div class="player-cr">
-      <iframe :src="'https://player-cr.vercel.app/?id='+media.media_id" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <div class="content-box">
+      <iframe :src="'https://player-cr.vercel.app/?id='+media.media_id"  width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
     </div>
 
     <div class="content-box" v-if="media.media_id === mediaId">
@@ -34,8 +34,6 @@
 </template>
 
 <script>
-import Player from 'modules/media/Player'
-import Loading from 'modules/shared/Loading'
 import ScrollingCollection from 'modules/media/ScrollingCollection'
 import ToggleWatchedButton from 'modules/media/ToggleWatchedButton'
 import ToggleQueueButton from 'modules/media/ToggleQueueButton'
@@ -76,8 +74,6 @@ export default {
     }
   },
   components: {
-    Player,
-    Loading,
     ScrollingCollection,
     ToggleWatchedButton,
     ToggleQueueButton
@@ -128,20 +124,5 @@ export default {
 
   .sub-title {
     font-size: 1.25rem;
-  }
-  .player-cr {
-    position:relative;
-  }
-  .player-cr .ratio {
-    display:block;
-    width:100%;
-    height:auto;
-  }
-  .player-cr iframe {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
   }
 </style>
