@@ -32,7 +32,7 @@ export default {
     LoadingSmall
   },
   created () {
-    document.title = `${this.$t('navbar.dashboard')} ― Smoothroll`
+    document.title = `${this.$t('navbar.dashboard')} ― CR`
   },
   computed: {
     queueLoading () {

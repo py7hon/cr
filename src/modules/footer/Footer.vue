@@ -2,10 +2,7 @@
   <footer id="footer">
     <div class="container">
       <div class="row">
-        <footer-item><a class="text-white-50" href="https://julians.website" target="_blank">{{$t('footer.madeBy', {name: 'Julian Bath'})}}</a></footer-item>
-        <footer-item><a class="text-white-50" href="https://github.com/Julzso23/smoothroll" target="_blank">{{$t('footer.contribute')}}</a></footer-item>
-        <footer-item>{{$t('footer.endorsement')}}</footer-item>
-        <footer-item>{{$t('footer.dataNotice')}}</footer-item>
+        <footer-item>:)</footer-item>
       </div>
     </div>
   </footer>

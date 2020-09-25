@@ -63,7 +63,7 @@ export default {
     }
   },
   mounted () {
-    document.title = `${this.$t('navbar.history')} ― Smoothroll`
+    document.title = `${this.$t('navbar.history')} ― CR`
 
     this.mediaType = this.mediaOptions[0]
   },

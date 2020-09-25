@@ -69,7 +69,7 @@ module.exports = {
   plugins: removeEmpty([
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Smoothroll',
+      title: 'CR',
       template: path.join(__dirname, '/src/index.html'),
       minify: {
         collapseWhitespace: true,

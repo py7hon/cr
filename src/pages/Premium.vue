@@ -8,7 +8,7 @@
 export default {
   name: 'premium',
   created () {
-    document.title = 'Premium ― Smoothroll'
+    document.title = 'Premium ― CR'
   }
 }
 </script>

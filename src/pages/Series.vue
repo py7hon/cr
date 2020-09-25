@@ -104,7 +104,7 @@ export default {
           this.collectionsLoading = false
         })
 
-      document.title = `${this.series.name} ― Smoothroll`
+      document.title = `${this.series.name} ― CR`
     },
     seriesId () {
       this.$store.dispatch('media/getSeries', this.seriesId)

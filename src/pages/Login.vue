@@ -15,7 +15,7 @@ export default {
     LoginForm
   },
   created () {
-    document.title = `${this.$t('authentication.login')} ― Smoothroll`
+    document.title = `${this.$t('authentication.login')} ― CR`
   }
 }
 </script>

@@ -85,7 +85,7 @@ export default {
       this.$store.dispatch('media/getMedia', this.mediaId)
     },
     media () {
-      document.title = `${this.$t('media.episode', { number: this.media.episode_number })}: ${this.media.name} - ${this.media.collection_name} ― Smoothroll`
+      document.title = `${this.$t('media.episode', { number: this.media.episode_number })}: ${this.media.name} - ${this.media.collection_name} ― CR`
 
       this.$store.dispatch('media/getCollection', this.media.collection_id)
     },

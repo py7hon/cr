@@ -24,7 +24,7 @@ export default {
     LoadingSmall
   },
   mounted () {
-    document.title = `${this.$t('navbar.queue')} ― Smoothroll`
+    document.title = `${this.$t('navbar.queue')} ― CR`
 
     this.mediaType = this.mediaOptions[0]
   },
