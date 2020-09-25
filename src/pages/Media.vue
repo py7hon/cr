@@ -1,7 +1,7 @@
 <template>
   <div v-if="media">
-    <div class="content-box">
-      <iframe :src="'https://player-cr.vercel.app/?id='+media.media_id" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" allow="autoplay; encrypted-media *"></iframe>
+    <div class="player-cr">
+      <iframe :src="'https://player-cr.vercel.app/?id='+media.media_id" frameborder="0" scrolling="no" allowfullscreen></iframe>
     </div>
 
     <div class="content-box" v-if="media.media_id === mediaId">
@@ -128,5 +128,20 @@ export default {
 
   .sub-title {
     font-size: 1.25rem;
+  }
+  .player-cr {
+    position:relative;
+  }
+  .player-cr .ratio {
+    display:block;
+    width:100%;
+    height:auto;
+  }
+  .player-cr iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
   }
 </style>
