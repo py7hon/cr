@@ -1,7 +1,7 @@
 <template>
   <div v-if="media">
     <div v-else class="player embed-responsive embed-responsive-16by9">
-      <div class="embed-responsive-item d-flex"><iframe :src="'https://player-cr.vercel.app/?id='+media.media_id" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" allow="autoplay; encrypted-media *"></iframe></div>
+      <iframe :src="'https://player-cr.vercel.app/?id='+media.media_id" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" allow="autoplay; encrypted-media *"></iframe>
     </div>
 
     <div class="content-box" v-if="media.media_id === mediaId">
