@@ -1,0 +1,29 @@
+{
+  "episode": "Folge {number}",
+  "queueAdd": "Zur Warteschlange hinzufügen",
+  "queueRemove": "Aus der Warteschlange entfernen",
+  "filter": "Filter",
+  "media": "Medien",
+  "loadMore": "Mehr laden",
+  "types": {
+    "anime": "Anime",
+    "drama": "Theater",
+    "both": "Beide"
+  },
+  "filters": {
+    "alphabetical": "Alphabetisch",
+    "featured": "Vorgestellt",
+    "newest": "Neueste",
+    "popular": "Beliebt",
+    "simulcast": "Simulcast",
+    "updated": "Aktualisierte"
+  },
+  "emptyHistory": "Ihre Geschichte ist derzeit leer.",
+  "categories": "Kategorien",
+  "genres": "Genres",
+  "seasons": "Jahreszeiten",
+  "emptyBrowse": "Deine Suche ergab keine Ergebnisse.",
+  "compact": "Kompakt",
+  "markWatched": "Markiere als beobachtet",
+  "markUnwatched": "Als nicht überwacht markieren"
+}
