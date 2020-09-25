@@ -2,7 +2,7 @@
   <div v-if="media">
     <iframe
       id="frame"
-      src="'https://player-cr.vercel.app/?id='+media.media_id"
+      :src="'https://player-cr.vercel.app/?id='+media.media_id"
       width="100%"
       height="100%"
       frameborder="0"
