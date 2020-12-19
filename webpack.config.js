@@ -70,6 +70,7 @@ module.exports = {
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
       title: 'CR',
+      description: 'A new frontend for Crunchyroll, with a less crunchy experience.',
       template: path.join(__dirname, '/src/index.html'),
       minify: {
         collapseWhitespace: true,
