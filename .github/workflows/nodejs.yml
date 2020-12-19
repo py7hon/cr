@@ -19,11 +19,10 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - uses: comchangs/action-yarn@v0.1-beta
-    - name: install, lint, build
+    - uses: borales/actions-yarn@v2.0.0
+    - name: install, build
       run: |
         yarn
-        yarn lint
         yarn build
       env:
         CI: true
